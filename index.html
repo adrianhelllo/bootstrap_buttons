@@ -79,6 +79,24 @@
       <button type="button" class="btn btn-lg btn-success" disabled>btn-success [disabled]</button>
       <a href="#" class="btn btn-lg btn-success disabled">link .disabled</a>
       <p class="my-3 h4 alert alert-warning"><strong>!</strong> When creating buttons [disabled] is an attribute, not a class. For a tags, it IS a class.</p>
+      <h2>You can also add spinners to a button with a span inside the button.</h2>
+      <button type="button" class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+      </button>
+      <button type="button" class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading...
+      </button>
+
+      <button type="button" class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading...
+      </button>
+
+      <button type="button" class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading...
+      </button>
     </div>
   </body>
 </html>
